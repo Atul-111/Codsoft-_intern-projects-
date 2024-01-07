@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Portfolio Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+    <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+</div>
+<section id="home">
+    <div class="main">
+        <h1 class="headings"><span class="type"></span></h1>
+    </div>
+</section>
+<section id="about">
+    <h1 class="heading1">ABOUT</h1>
+    <div id="pic">
+        <img src="my_photo1.png " alt="" >
+        <div id="intro">
+            <p>My Name is Atul Pandey and I am a software developer
+                currently working  with CodSoft as an Web Developer Intern.
+                My journey in the dynamic world of software development has been shaped by a passion for technology
+                and a commitment to continual learning.
+                From my early curiosity about the digital realm to my academic pursuits in computer science,
+                I have evolved into a professional
+                who thrives on the challenges and rewards of creating innovative digital solutions.
+                </p>
+            </div>
+        </div>
+</section>
+<section id="portfolio">
+    <h1 class="headings">PORTFOLIO</h1>
+    <div id="gallery">
+        <div>
+        <label for="">Web Development:</label><img src="pro 1.jfif" alt="">
+    </div>
+    <div>
+        <label for="">App Development:</label><img src="pro2.jfif" alt="">
+    </div>
+    <div>
+        <label for="">Software Development:</label><img src="pro3.jfif" alt="">
+    </div>
+    <div>
+        <label for="">Game Development:</label><img src="pro4.jfif" alt="">
+    </div>
+    </div>
+</section>
+<section id="skills">
+    <h1 class="headings">Skills</h1>
+    <ul class="logo">
+        <div><img src="logo/c++.png" alt=""></div>
+        <div><img src="logo/css.jfif" alt=""></div>
+        <div><img src="logo/htlogo.png" alt=""></div>
+            <div id="4"><img src="logo/jalogo.png" alt=""></div>
+                <div><img src="logo/js.png" alt=""></div>
+                        <div><img src="logo/phplogo.png" alt=""></div>
+                        <div><img src="logo/pylogo.jfif" alt=""></div>
+                            <div><img src="logo/react.png" alt=""></div>
+                                <div><img src="logo/sql.png" alt=""></div>
+    </ul>
+</section>
+<section id="services">
+    <h1 class="headings">SERVICES</h1>
+    <div class="row">
+        <div class="box">
+            <h1 class="headings">Website Designing</h1>
+            <p>
+                Website design is the process of creating and structuring
+                the visual and interactive elements of a website.
+                It involves a combination of graphic design,
+                user interface (UI) design, and user experience (UX) design
+                to ensure a website is not only aesthetically pleasing but also
+                functional and user-friendly.
+            </p>
+        </div>
+        <div class="box">
+            <h1 class="headings">App Designing</h1>
+            <p>
+                App designing involves the creation of visual and
+                interactive elements for mobile applications.
+                It encompasses various design principles and considerations
+                to ensure an intuitive, engaging, and it also having  user-friendly experience.
+            </p>
+        </div>
+        <div class="box">
+            <h1 class="headings">Digital Marketing</h1>
+            <p>
+                Digital marketing is a broad term encompassing
+                all marketing efforts that use electronic devices
+                or the internet. It leverages digital channels
+                such as search engines, social media, email,
+                websites, and mobile apps to connect with current
+                and prospective customers..</p>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <h1 class="headings">CONTACT</h1>
+    <form action="" class="form">
+        <input type="text" class="input" placeholder="Enter your Name">
+        <input type="email" class="input" placeholder="Enr your Email">
+        <textarea name="msg" id="msg" cols="15" rows="5" placeholder="Enter your message"></textarea>
+        <input type="submit" value="SEND" id="button">
+    </form>
+</section>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".type", {
+          strings: ["Hi, I am Atul Pandey From India , I am a Full Stack Developer.","I loves to Write Codes and Design Projects."],
+          typeSpeed: 100,
+          backSpeed: 100,
+        });
+      </script>
+</body>
+</html>
