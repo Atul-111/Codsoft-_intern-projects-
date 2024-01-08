@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My_Portfolio Website</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <div class="container">
     <ul>
         <li><a href="#home">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#Experience">EXPERIENCE</a></li>
         <li><a href="#skills">SKILLS</a></li>
-        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
         <li><a href="#contact">CONTACT</a></li>
     </ul>
 </div>
@@ -38,8 +39,8 @@
             </div>
         </div>
 </section>
-<section id="portfolio">
-    <h1 class="headings">PORTFOLIO</h1>
+<section id="Experience">
+    <h1 class="headings">EXPERIENCE IN:-</h1>
     <div id="gallery">
         <div>
         <label for="">Web Development:</label><img src="pro 1.jfif" alt="">
@@ -69,38 +70,36 @@
                                 <div><img src="logo/sql.png" alt=""></div>
     </ul>
 </section>
-<section id="services">
-    <h1 class="headings">SERVICES</h1>
+<section id="projects">
+    <h1 class="headings"> WEB DEVELOPMENT<br> PROJECTS</h1>
     <div class="row">
         <div class="box">
-            <h1 class="headings">Website Designing</h1>
+            <h1 class="headings">PortFolio</h1>
             <p>
-                Website design is the process of creating and structuring
-                the visual and interactive elements of a website.
-                It involves a combination of graphic design,
-                user interface (UI) design, and user experience (UX) design
-                to ensure a website is not only aesthetically pleasing but also
-                functional and user-friendly.
+                A portfolio is a compilation of academic
+                and professional materials that exemplifies your beliefs,
+                skills, qualifications, education, training, and experiences.
+                It provides insight into your personality and work ethic.
+                The said collection of financial assets may also be valuables ranging
+                from gold, stocks, funds, derivatives, property, cash equivalents, bonds, etc.
             </p>
         </div>
         <div class="box">
-            <h1 class="headings">App Designing</h1>
+            <h1 class="headings">Calculator</h1>
             <p>
-                App designing involves the creation of visual and
-                interactive elements for mobile applications.
-                It encompasses various design principles and considerations
-                to ensure an intuitive, engaging, and it also having  user-friendly experience.
+                A calculator is a device that performs arithmetic
+                operations on numbers. Basic calculators can do only addition,
+                subtraction, multiplication and division mathematical calculations.
+                Most calculators these days require electricity to operate or are
+                battery-powered calculators.
+                Calculators work by performing programmed functions based on numerical input
             </p>
         </div>
         <div class="box">
-            <h1 class="headings">Digital Marketing</h1>
-            <p>
-                Digital marketing is a broad term encompassing
-                all marketing efforts that use electronic devices
-                or the internet. It leverages digital channels
-                such as search engines, social media, email,
-                websites, and mobile apps to connect with current
-                and prospective customers..</p>
+            <h1 class="headings">Landing Page</h1>
+            <p>A landing page is a standalone web page that a person "lands" on after clicking
+                 through from an email, ad, or other digital location. Every content strategy should
+                 include the use of landing pages to convert more traffic and increase conversions.</p>
         </div>
     </div>
 </section>
@@ -108,17 +107,32 @@
     <h1 class="headings">CONTACT</h1>
     <form action="" class="form">
         <input type="text" class="input" placeholder="Enter your Name">
-        <input type="email" class="input" placeholder="Enr your Email">
+        <input type="email" class="input" placeholder="Enter your Email">
         <textarea name="msg" id="msg" cols="15" rows="5" placeholder="Enter your message"></textarea>
-        <input type="submit" value="SEND" id="button">
+        <input type="submit" value="SEND" onclick="form.value=' '" id="button">
     </form>
+</section>
+    <section class="profile">
+        <h1 class="headings">PROFILE</h1>
+        <div class="tag">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+    </div>
+    <a href="logo/Resume.pdf" download id="button" >Download CV</a>
+</section>
+<section class="footer">
+    <footer>Copyright 2017 </footer>
 </section>
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed(".type", {
-          strings: ["Hi, I am Atul Pandey From India , I am a Full Stack Developer.","I loves to Write Codes and Design Projects."],
-          typeSpeed: 100,
-          backSpeed: 100,
+          strings: ["Hi, I am Atul Pandey From India , I am a Full Stack Developer. I loves to Write Codes and Design Projects."],
+          typeSpeed: 50,
+          backSpeed: 60,
         });
       </script>
 </body>

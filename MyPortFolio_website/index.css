@@ -7,14 +7,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
-    height: 610vh;
+    height: 613vh;
     background-image: url(wall3.jpg);
     color: black;
 }
 .container{
     display: flex;
     justify-content: center;
-    background-color:brown(0, 21, 255);
 }
 .container ul{
     display: flex;
@@ -25,7 +24,7 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 1.1rem;
     font-weight: 900;
-    text-shadow: 0 0 10px whitesmoke;
+    text-shadow: 0 0 2px white;
     word-spacing: 2px;
 }
 .container ul li a{
@@ -45,13 +44,13 @@ body{
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 30%;
+    top: 25%;
     right: 10%;
 }
 .main .headings{
     font-size: 2rem;
     text-align: center;
-    margin: auto;
+    margin: 20px;
     width: 400px;
     height: 230px;
     color: white;
@@ -63,6 +62,7 @@ body{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
+    text-shadow: 0 0 3px white ;
 }
 /* about section*/
 #about{
@@ -82,13 +82,13 @@ body{
     height: 300px;
     border-radius:40%;
     position: absolute;
-    top: 100px;
-    left: 100px;
+    top: 80px;
+    left: 60px;
     border: 2px solid chocolate;
     transition: 0.5ms ease;
 }
 #pic img:hover{
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 15px black, 0 0 10px black, 0 0 10px black,0 0 10px black;
     transform: scale(2.5s);
     width: 260px;
     height: 310px;
@@ -98,7 +98,7 @@ body{
     font-size: 3rem;
     text-align: center;
     color: black;
-    text-shadow: 0 0 20px whitesmoke ;
+    text-shadow: 0 0 5px whitesmoke ;
     letter-spacing: 2px;
 }
 #intro{
@@ -108,19 +108,20 @@ body{
     font-weight: bold;
     width: 100%;
     height: 210px;
-    margin-top: 30px;
+    padding: 25px;
+    margin-top: 20px;
     font-size: 19px;
     justify-content: space-between;
     border: 2px solid white;
 }
 
 /* portfolio section*/
-#portfolio{
+#Experience{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    text-shadow: 0 0 20px white;
+    text-shadow: 0 0 5px white;
 }
 #gallery{
     display: flex;
@@ -136,11 +137,11 @@ body{
     margin-top: 20px;
     justify-content: space-between;
     cursor: pointer;
-    transition: all 0.9s ;
+    transition: all 0.9s ease-in-out ;
 }
 #gallery img:hover{
+    box-shadow:0 0 10px black,0 0 10px black;
     border: none;
-    box-shadow:0 0 10px black;
 }
 label{
     display: flex;
@@ -166,6 +167,7 @@ label{
 }
 #skills .logo img{
     margin-top: 40px;
+    border: 2px solid black;
     border-radius: 100%;
     width: 80px;
     height: 80px;
@@ -174,12 +176,12 @@ label{
 #skills .logo img:hover{
     box-shadow: 0 0 10px black;
     transform: scale(2.5s);
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
-/* service center */
-#services{
+/* projects center */
+#projects{
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -220,24 +222,29 @@ label{
     display: flex;
     flex-direction: column;
     background-color: black;
-    color: white;
+    color: whitesmoke;
 }
 .form{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px 0px;
+    margin-left: 30%;
+    margin-top: -5px;
+}
+#contact .headings{
+    margin-left: 30%;
 }
 .input{
     padding: 12px;
     margin: 10px;
-    width: 30%;
+    width: 60%;
     border: none;
     outline: none;
     border-radius: 10px;
 }
 #msg{
-    width: 25%;
+    width: 60%;
     padding: 20px;
     margin: 10px;
     border: none;
@@ -245,9 +252,9 @@ label{
 }
 #button{
     padding: 10px;
-    width: 20%;
+    width: 25%;
     margin: 10px;
-    background-color: chocolate;
+    background-color: orangered;
     border: none;
     font-size: 16px;
     font-family:sans-serif;
@@ -256,6 +263,43 @@ label{
 }
 #button:hover{
     cursor: pointer;
-    box-shadow: 0 0 20px white;
-
+    border: 1px solid white ;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 200px;
+    margin-top: -300px;
+    margin-left: 5%;
+}
+.profile .tag a{
+    color: white;
+    margin:10px 5px;
+    padding: 10px;
+}
+.profile .tag{
+    display: flex;
+}
+.profile a i{
+    font-size: 22px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.profile #button{
+    width: 130px;
+    text-decoration: none;
+    color: black;
+    background-color: #ff004f;
+    margin-left: 20px;
+    padding: 10px;
+}
+.profile a i:hover{
+    color: red;
+    transform: translateY(-5px);
+}
+.footer{
+    background-color: white ;
+    margin-top: 84px;
+    font-size: 13px;
 }
